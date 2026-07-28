@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local backend config (contains bucket name with account ID)
+backend.hcl
+
+# Local var overrides
+*.auto.tfvars
+terraform.tfvars
+
+# OS
+.DS_Store
