@@ -23,7 +23,7 @@ variable "instance_type" {
 
 variable "vault_version" {
   type    = string
-  default = "1.18.2-1"  # HashiCorp AL2023 package format: X.Y.Z-1
+  default = "1.18.2-1" # HashiCorp AL2023 package format: X.Y.Z-1
 }
 
 variable "tags" {

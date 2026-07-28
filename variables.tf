@@ -10,7 +10,7 @@ variable "cluster_name" {
 
 variable "vpc_cidr" {
   type    = string
-  default = "10.30.0.0/16"  # non-overlapping with terraform-eks-platform (10.20.0.0/16)
+  default = "10.30.0.0/16" # non-overlapping with terraform-eks-platform (10.20.0.0/16)
 }
 
 variable "instance_type" {
