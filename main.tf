@@ -22,7 +22,7 @@ module "vpc" {
   public_subnets  = [for i in range(3) : cidrsubnet(var.vpc_cidr, 4, i + 8)]
 
   enable_nat_gateway   = true
-  single_nat_gateway   = true  # cost optimization for demo
+  single_nat_gateway   = true # cost optimization for demo
   enable_dns_hostnames = true
 
   tags = local.tags
